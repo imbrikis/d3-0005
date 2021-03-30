@@ -6,7 +6,7 @@ const App = () => {
   const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/users/2/albums/`)
+    fetch(`https://mockend.com/org/d3-0004/temps`)
       .then((res) => res.json())
       .then((json) => setData(json))
     main()
